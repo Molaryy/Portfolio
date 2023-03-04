@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+:root{
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%) ;
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(48, 73%, 50%);
+}
+
+.menu {
+    width: 119rem;
+    height: 40px;
+    background-color: var(--Very-dark-blue);
+}
+
+.home-li {
+    position: absolute;
+    left: 35rem;
+}
+.portfolio-li {
+    position: absolute;
+    left: 45rem;
+}
+
+.contact-li {
+    position: relative;
+    left: 55rem;
+}
+
+.buttons-nav-bar{
+    color: white;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons-nav-bar li {
+    padding: 10px 14rem 40rem 12rem;
+}
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 45rem;
+    margin-top: 5rem;
+}
+.student{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 42rem;
+    margin-top: 0.2rem;
+    font-size: 20px;    
+}
+
+.bar {
+    margin-left: 2rem;
+    margin-top: 5rem;
+    width: 20rem;
+    background-color: var(--Very-dark-blue);
+    height: 30rem;
+    box-shadow: 10px 10px;
+}
+
+.profile-img {
+    margin-top: 9px;
+    border-radius: 0.5em;
+    margin-left: 5.5em;
+    box-shadow: 10px 10px;
+}
+
+.competences {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-left: 0.5em;
+    margin-top: 1em;
+}
+
+.mini-bar {
+    position: inherit;
+    background-color: white;
+    width: 16em;
+    height: 5px;
+    margin-top: 3rem;
+}
+
+.languages-prog {
+    
+    margin-left: 1em;
+    color: white;
+    margin-top: 1em;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.C {
+    position: absolute;
+    margin-left: 1.5rem;
+}
+
+.HTML {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 1.5rem;
+}
+.CSS {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 1.5rem;
+}
+
+.JS {
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 1.5rem;
+}
+
+.Py {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 1.5rem;
+}
+.Git {
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 1.5rem;
+}
+
+.Linux {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 1.5rem;
+}
+
+.C-logo {
+    position: absolute;
+    width: 15px;
+    margin-bottom: 50px;
+}
+
+.HTML-logo {
+    position: absolute;
+    width: 22px;
+    margin-left: -3px;
+    margin-top: 20px;
+}
+
+.CSS-logo {
+    position: absolute;
+    width: 16px;
+    margin-top: 45px;
+    margin-left: -0.5px;
+}
+
+.JS-logo {
+    position: absolute;
+    width: 40px;
+    margin-top: 70px;
+    margin-left: -12.5px;
+}
+
+.PY-logo {
+    position: absolute;
+    width: 16px;
+    margin-top: 6.2rem;
+    margin-left: -1px;
+}
+
+.GIT-logo {
+    position: absolute;
+    width: 19px;
+    margin-top: 122px;
+    margin-left: -3px;
+}
+
+.LINUX-logo {
+    position: absolute;
+    width: 18px;
+    margin-top: 148px;
+    margin-left: -3px;
+}
+
+.about-me {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    background-color: var(--Very-dark-blue);
+    color: white;
+    margin-left: 35rem;
+    margin-top: 8rem;
+    box-shadow: 10px 10px;
+}
+.text-typed {
+    margin-top: 1rem;
+    margin-left: 5px;
+}
+.text-typed_2{
+    margin-top: 18px;
+    margin-left: 5px;
+}
+
+.text-typed_3 {
+    margin-top: 18px;
+    margin-left: 30px;
+}
+
+.text-typed_4 {
+    margin-top: 90px;
+    margin-left: 2rem;
+}
+.text-typed_5 {
+    margin-top: 18px;
+    margin-left: 10rem;
+}
+.bar-projects {
+    margin-left: 40rem;
+    margin-top: 1rem;
+    border-radius: 2em;
+    width: 700px;
+    height: 20px;
+    background-color: var(--Very-dark-blue);
+}
+.typed-projects {
+    font-size: 40px;
+    margin-left: 55rem;
+    margin-top: 10rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-bsq {
+    position: absolute;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    width: 350px;
+    height: 350px;
+    background-color: var(--Very-dark-blue);
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+    color: white;
+}
+
+.BSQ-title {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 8em;
+    color: white;
+}
+
+.container-ls {
+    position: absolute;
+    margin-top: 10rem;
+    margin-left: 50rem;
+    width: 350px;
+    height: 350px;
+    background-color: var(--Very-dark-blue);
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+    color: white;
+}
+
+.LS-title {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 8em;
+    color: white;
+}
+
+.container-hunt {
+    position: absolute;
+    margin-top: 10rem;
+    margin-left: 90rem;
+    width: 350px;
+    height: 350px;
+    background-color: var(--Very-dark-blue);
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+    color: white;
+}
+
+.HUNT-title {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 6.5em;
+    color: white;
+}
+
+.container-push {
+    position: absolute;
+    margin-top: 45rem;
+    margin-left: 10rem;
+    width: 350px;
+    height: 350px;
+    background-color: var(--Very-dark-blue);
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+    color: white;
+}
+
+.PUSH-title {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 7em;
+    color: white;
+}
+
+.container-soko {
+    position: absolute;
+    margin-top: 45rem;
+    margin-left: 50rem;
+    width: 350px;
+    height: 350px;
+    background-color: var(--Very-dark-blue);
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+    color: white;
+}
+
+.SOKO-title {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 6em;
+    color: white;
+}
+
+.container-radar {
+    position: absolute;
+    margin-top: 45rem;
+    margin-left: 90rem;
+    width: 350px;
+    height: 350px;
+    background-color: var(--Very-dark-blue);
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+    color: white;
+}
+
+.RADAR-title {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 7em;
+    color: white;
+}
+
+.container-ant {
+    position: absolute;
+    margin-top: 80rem;
+    margin-left: 10rem;
+    width: 350px;
+    height: 350px;
+    background-color: var(--Very-dark-blue);
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+    color: white;
+}
+
+.ANT-title {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 7em;
+    color: white;
+}
+
+.container-navy {
+    position: absolute;
+    margin-top: 80rem;
+    margin-left: 50rem;
+    width: 350px;
+    height: 350px;
+    background-color: var(--Very-dark-blue);
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+    color: white;
+}
+
+.NAVY-title {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 7em;
+    color: white;
+}
+
+.contact-bar {
+    margin-top: 120rem;
+    width: 119rem;
+    height: 300px;
+    background-color: var(--Very-dark-blue);
+}
+
+.icons {
+    color: white;
+    list-style: none;
+}
+.git {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.link {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 10px;
+}
+
+.mail {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 8px;
+}
+
+.num {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 8px;
+}
+
+.git-text {
+    position: absolute;
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+}
+
+.link-text {
+    position: absolute;
+    margin-left: 3rem;
+    margin-top: 3.5rem;
+}
+
+.mail-text {
+    position: absolute;
+    margin-left: 3rem;
+    margin-top: 5.8rem;
+}
+
+.num-text {
+    position: absolute;
+    margin-left: 3rem;
+    margin-top: 7.8rem;
+}
